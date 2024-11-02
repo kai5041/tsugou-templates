@@ -1,0 +1,3 @@
+#!/bin/bash
+
+for dir in */; do zip -rq "${dir%/}.zip" "$dir"; done
