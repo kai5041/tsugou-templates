@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "zipall": "for dir in */; do zip -rq \"${dir%/}.zip\" \"$dir\"; done"
+  }
+}
